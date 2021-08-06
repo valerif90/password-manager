@@ -1,0 +1,51 @@
+.dashboardTable__row {
+  width: 100%;
+  display: flex;
+  padding: 9px 0;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+.dashboardTable__row div {
+  width: 200px;
+  margin: 0 2rem 0 1rem;
+}
+
+.dashboardTable__row .passwordFieldBox {
+  display: flex;
+}
+
+.dashboardTable__row .passwordField {
+  width: 180px;
+  border: none;
+  outline: none;
+}
+
+.dashboardTable__row .eyeBtn {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.dashboardTable__row .options {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.dashboardTable__row .options i {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.dashboardTable__row .options .edit {
+  color: #be1558;
+  margin-right: 2rem;
+}
+
+.dashboardTable__row .options .delete {
+  color: red;
+}
+
+.options {
+  text-align: center;
+}
